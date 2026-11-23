@@ -19,22 +19,23 @@
 <body>
 <main>
 <h1>Trotter Privacy Policy</h1>
-<p class="soft">Last updated: 15 November 2026</p>
+<p class="soft">Last updated: 16 November 2026</p>
 
 <p>Trotter turns your walking into medals. It is made by one person, Eusha (contact: <a href="mailto:eushamashfi@gmail.com">eushamashfi@gmail.com</a>). This policy explains what Trotter collects, why, and the choices you have. Trotter has no ads and never sells your data.</p>
 
 <h2>What stays on your phone</h2>
 <ul>
   <li><strong>Steps.</strong> Trotter reads your daily step count from your phone's own step counter (Android's Recording API or step sensor; Apple's Core Motion on iPhone). Steps are stored on your phone.</li>
-  <li><strong>Approximate location.</strong> While the app is open, Trotter checks your approximate (city-level) location to work out which district, state or province you are in, so your steps can count toward that place's medals. The place lookup happens on your phone with a built-in map. Trotter never tracks your location in the background and never sends your coordinates anywhere; only the name of the place is kept.</li>
+  <li><strong>Approximate location.</strong> While the app is open, Trotter checks your approximate (city-level) location to work out which district, state or province you are in, so your steps can count toward that place's medals. The place lookup happens on your phone with a built-in map. Trotter never sends your coordinates anywhere; only the name of the place is kept.</li>
+  <li><strong>Optional: places while the app is closed.</strong> Only if you turn it on (Profile → Places while closed) and choose “Allow all the time” (Android) or “Always” (iPhone), your phone also checks your approximate city now and then while Trotter is closed (about once an hour on Android, after a big move on iPhone), so steps on a trip count toward that place. These checks are rounded to about 1 km, stay on your phone, are turned into a place name on your phone and then deleted. They are never sent to us or anyone else, never used for ads, and you can turn this off at any time in the app or in your phone's settings.</li>
   <li><strong>Medals, your trophy case and settings.</strong></li>
 </ul>
 <p>You can use Trotter fully without an account. Without one, none of the above leaves your phone.</p>
 
 <h2>If you sign in (optional)</h2>
-<p>Signing in with an email link or Google lets you back up your walking and appear in Ranks. We then store:</p>
+<p>Signing in with an email link, Google or Apple lets you back up your walking and appear in Ranks. We then store:</p>
 <ul>
-  <li>your email address (for signing in);</li>
+  <li>your email address (for signing in; with Sign in with Apple this can be a private relay address Apple makes for you);</li>
   <li>a private backup: steps per day, medals, your case, the names of places you've walked, monthly league results and settings, plus a random install ID;</li>
   <li>for Ranks: your name as you set it (or "Anonymous walker" if you turn names off), your home area and country, and this month's step total. <strong>Ranks are public</strong>: anyone using Trotter can see the boards. They never show your email or location.</li>
   <li>your wall: which medals and artifacts hang on it and where, so others can look at it from Ranks. It never includes your email or location, and anonymous walkers' rows can't be linked to their wall.</li>
@@ -42,7 +43,7 @@
 <p>This data is stored with <a href="https://supabase.com/privacy">Supabase</a> and protected so only your account can read or change your backup.</p>
 
 <h2>Analytics</h2>
-<p>Trotter uses <a href="https://posthog.com/privacy">PostHog</a> to understand how the app is used, for example when a medal is earned, claimed or hung, or when the app is opened. These events carry a random ID and basic device information. They never include your location, coordinates or step history. You can turn analytics off any time in Profile → Settings.</p>
+<p>Trotter uses <a href="https://posthog.com/privacy">PostHog</a> to understand how the app is used, for example when a medal is earned, claimed or hung, or when the app is opened. These events carry a random ID and basic device information. They also include your step counts (each day's total, monthly totals and league results), your home and current area, your country, and how many steps you have walked in each area (for example "Dhaka: 84,210"). They never include your name, email or coordinates. You can turn analytics off any time in Profile → Settings.</p>
 
 <h2>Notifications</h2>
 <p>If you allow them, notifications are planned and shown on your phone. Nothing about them is sent to a server.</p>
@@ -54,7 +55,10 @@
 <p>Trotter Pro (monthly or lifetime) is bought through Google Play (or the App Store). Trotter never sees your card or payment details; your phone only receives confirmation from the store that Pro is active. Pro belongs to your store account and is not stored on our server.</p>
 
 <h2>Invites</h2>
-<p>Each walker can share a personal invite link. When a friend installs Trotter from it, the friend's phone reads the invite code that Google Play passes along with the install (the "install referrer") and sends it to our server with a random install ID, so the person who invited them can be counted and rewarded. Each phone counts once. No name, contact or location is sent.</p>
+<p>Each walker can share a personal invite link. When a friend installs Trotter from Google Play through it, the friend's phone reads the invite code that Google Play passes along with the install (the "install referrer") and sends it to our server with a random install ID, so the person who invited them can be counted and rewarded. Each phone counts once. No name, contact or location is sent.</p>
+
+<h2>Reporting a name</h2>
+<p>Anyone can report a name they see on Ranks. A report stores which walker was reported, the name shown and a random install ID (to limit reports from one phone). Only the maker of Trotter reads reports, and may hide a name that breaks the rules; the walker then appears as "Anonymous walker".</p>
 
 <h2>Artifact ideas</h2>
 <p>If you send an idea for a new artifact, we store the text you wrote, the app's language and a random install ID (to limit how many ideas one phone can send). Only the maker of Trotter can read them. Please don't include personal information.</p>
@@ -63,7 +67,7 @@
 <p>The first walkers get an Early Bird medal. To hand these out, the app sends a random install ID to our server once. It contains no personal information.</p>
 
 <h2>Sharing</h2>
-<p>We don't sell, rent or trade your data. It is shared only with the services named above (Supabase, PostHog, Google for sign-in, purchases and install referrals) to run the app, or if the law requires it.</p>
+<p>We don't sell, rent or trade your data. It is shared only with the services named above (Supabase, PostHog, Google for sign-in, purchases and install referrals, Apple for sign-in and purchases) to run the app, or if the law requires it.</p>
 
 <h2 id="delete">Deleting your data</h2>
 <ul>
